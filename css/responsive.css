@@ -1,0 +1,1348 @@
+/* ============ for extra small device ==========  */
+@media (max-width: 576px) {
+
+    /* ====== common css ===== */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .goToTop {
+        width: 30px;
+        height: 30px;
+        right: 15px;
+        background-size: cover;
+    }
+
+    /* ========== navbar ======== */
+    .menu>ul {
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    .menubar>.logo img {
+        width: 120px;
+    }
+
+    #nav {
+        padding: 10px;
+        background: #f7dde9ee;
+        position: static;
+    }
+
+    #nav.fixNav {
+        padding: 10px;
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .menu ul li a::after {
+        content: "";
+    }
+
+    .login a {
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
+
+    /* ============ banner ============== */
+    #banner {
+        padding-top: 10px;
+    }
+
+    .bannerImg {
+        text-align: center;
+    }
+
+    .bannerImg img {
+        margin-left: 0;
+        margin-bottom: 10px;
+        height: 250px;
+    }
+
+    .bannerText h2 {
+        font-size: 30px;
+    }
+
+    .bannerText h1 {
+        font-size: 42px;
+    }
+
+    .bannerText p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 15px 0;
+    }
+
+    .bannerLink a {
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
+
+    #banner .bannerLink {
+        padding-bottom: 50px;
+    }
+
+    /* ======== history section ======= */
+    #history {
+        padding: 50px 0;
+    }
+
+    .historyText {
+        padding-top: 0;
+    }
+
+    .heading h2 {
+        font-size: 32px;
+        color: #d50a51;
+        padding: 10px 0 10px 0px;
+    }
+
+    .historyText p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .historyText br {
+        display: none;
+    }
+
+    /* === gift section ========= */
+    #proposal {
+        padding: 60px 0 20px 0;
+        /* overflow: hidden; */
+        padding-left: 10px;
+    }
+
+    .proposalText {
+        padding-left: 0px;
+    }
+
+    #proposal .bannerLink {
+        padding: 15px 0 20px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .proposalImg img {
+        position: static;
+        left: 0;
+        bottom: 0;
+        height: 300px;
+        margin-left: 44px;
+        margin-top: -29px;
+    }
+
+    /* ============ ticket section ========== */
+    #ticket {
+        padding: 60px 0 40px 0;
+    }
+
+    .ticketFlex {
+        flex-direction: column-reverse;
+    }
+
+    .ticketImg img {
+        position: static;
+        top: 0;
+        left: 0px;
+    }
+
+    #ticket .bannerLink {
+        padding: 10px 0 15px 0;
+        gap: 10px;
+    }
+
+    /* =========== offer section ======== */
+    #offer {
+        background: radial-gradient(#ffffff, #fdedf4);
+        padding: 50px 0 20px 0;
+    }
+
+    .cardHeading {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cardArea {
+        padding: 15px 20px;
+
+    }
+
+    .cardDes p {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cardArea:hover {
+        border-right: 0px solid #d50a51;
+    }
+
+    /* ====== shots section ========== */
+    #shots {
+        padding: 50px 0;
+    }
+
+    .shotsFlex {
+        flex-direction: column-reverse;
+    }
+
+    #shots .heading h2 {
+        font-size: 24px;
+    }
+
+    .shotsText .bannerLink {
+        padding-top: 10px;
+        gap: 10px;
+    }
+
+    /* ======= counter section =========== */
+    .countFlex {
+        row-gap: 35px;
+    }
+
+    #counter {
+        padding: 40px 0;
+    }
+
+    .count h3,
+    .count h4 {
+        font-size: 30px;
+    }
+
+    /* ========== review section ======== */
+    #review {
+        padding: 70px 0 250px 0;
+    }
+
+    .reviewCard {
+        padding: 15px 20px;
+        box-shadow: 0 0 0px #a3a0a0;
+    }
+
+    .reviewCard p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    .reviewTitle {
+        width: 200px;
+    }
+
+    .reviewTitle h3 {
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .reviewTitle h4 {
+        font-size: 14px;
+    }
+
+    .reviewImg {
+        padding-right: 15px;
+        width: 60px;
+    }
+
+    .reviewImg img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .btnTwo,
+    .btnOne {
+        display: none;
+    }
+
+    .reviewFlex::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .reviewFlex::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* ========= footer ======= */
+    .newsLetter {
+        padding: 30px 10px;
+        border-radius: 10px;
+        position: absolute;
+        margin: 0 auto;
+        transform: translateY(-50%);
+        /* margin-bottom: 20px; */
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        text-align: center;
+    }
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .name input,
+    .email input {
+        width: 270px;
+    }
+    .logoText h2 {
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+    
+    .logoText p {
+        font-size: 10px;
+        word-spacing: 1px;
+        line-height: 1.1;
+        margin-bottom: 0;
+    }
+
+    .nlLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .nlLogo i {
+        font-size: 30px;
+    }
+
+    #footer {
+        padding: 0px 0 30px 0;
+    }
+
+    .footerLogo img {
+        width: 120px;
+    }
+
+    .footerFlex {
+        padding: 20px 0;
+    }
+
+    .follow h2 {
+        padding-bottom: 10px;
+    }
+
+    .footerLogo {
+        padding-top: 50px;
+    }
+
+    /* ====== copyright section ======= */
+    .copyright {
+        padding: 20px 0;
+        font-size: 14px;
+    }
+
+    .copyright p {
+        margin-bottom: 0;
+        line-height: 1.2;
+    }
+}
+
+/* ============ for small device ==========  */
+@media (min-width: 576px) and (max-width:767.98px) {
+
+    /* ====== common css ===== */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .goToTop {
+        width: 30px;
+        height: 30px;
+        right: 15px;
+        background-size: cover;
+    }
+
+    /* ========== navbar ======== */
+    .menu>ul {
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    .menubar>.logo img {
+        width: 120px;
+    }
+
+    #nav {
+        padding: 10px;
+        background: #f7dde9ee;
+        position: static;
+    }
+
+    #nav.fixNav {
+        padding: 10px;
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .menu ul li a::after {
+        content: "";
+    }
+
+    .login a {
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
+
+    /* ============ banner ============== */
+    #banner {
+        padding-top: 10px;
+    }
+
+    .bannerImg {
+        text-align: center;
+    }
+
+    .bannerImg img {
+        margin-left: 0;
+        margin-bottom: 10px;
+        height: 350px;
+    }
+
+    .bannerText h2 {
+        font-size: 35px;
+    }
+
+    .bannerText h1 {
+        font-size: 50px;
+    }
+
+    .bannerText p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 15px 0;
+    }
+
+    .bannerLink a {
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
+
+    #banner .bannerLink {
+        padding-bottom: 50px;
+    }
+
+    /* ======== history section ======= */
+    #history {
+        padding: 50px 0;
+    }
+
+    .historyImg {
+        height: 300px;
+        text-align: center;
+    }
+
+    .historyImg img {
+        height: 100%;
+    }
+
+    .historyText {
+        padding-top: 0;
+    }
+
+    .heading h2 {
+        font-size: 32px;
+        color: #d50a51;
+        padding: 10px 0 10px 0px;
+    }
+
+    .historyText p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .historyText br {
+        display: none;
+    }
+
+    /* === gift section ========= */
+    #proposal {
+        padding: 60px 0 20px 0;
+        overflow: hidden;
+    }
+
+    .proposalText {
+        padding-left: 0px;
+    }
+
+    #proposal .bannerLink {
+        padding: 15px 0 20px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .proposalImg img {
+        position: static;
+        height: 350px;
+        margin-left: 150px;
+        margin-top: -110px;
+    }
+
+    /* ============ ticket section ========== */
+    #ticket {
+        padding: 60px 0 40px 0;
+    }
+
+    .ticketFlex {
+        flex-direction: column-reverse;
+    }
+
+    .ticketImg img {
+        position: static;
+        top: 0;
+        left: 0px;
+        height: 250px;
+    }
+
+    #ticket .bannerLink {
+        padding: 10px 0 15px 0;
+        gap: 10px;
+    }
+
+    /* =========== offer section ======== */
+    #offer {
+        background: radial-gradient(#ffffff, #fdedf4);
+        padding: 50px 0 20px 0;
+    }
+
+    .cardHeading {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cardArea {
+        padding: 15px 20px;
+
+    }
+
+    .cardDes p {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cardArea:hover {
+        border-right: 1px solid #d50a51;
+    }
+
+    /* ====== shots section ========== */
+    #shots {
+        padding: 50px 0;
+    }
+
+    .shotsFlex {
+        flex-direction: column-reverse;
+    }
+
+    #shots .heading h2 {
+        font-size: 24px;
+    }
+
+    .shotsText .bannerLink {
+        padding-top: 10px;
+        gap: 10px;
+    }
+
+    /* ======= couner section =========== */
+    .countFlex {
+        row-gap: 35px;
+    }
+
+    /* ========== review section ======== */
+    #review {
+        padding: 50px 0;
+    }
+
+    .reviewCard {
+        padding: 20px 25px;
+        box-shadow: 0 0 0px #a3a0a0;
+    }
+
+    .reviewCard p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .reviewTitle {
+        width: 200px;
+    }
+
+    .reviewTitle h3 {
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .reviewTitle h4 {
+        font-size: 14px;
+    }
+
+    .reviewImg {
+        padding-right: 15px;
+        width: 60px;
+    }
+
+    .reviewImg img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .btnTwo,
+    .btnOne {
+        display: none;
+    }
+
+    .reviewFlex::before {
+        content: "";
+    }
+
+    .reviewFlex::after {
+        content: "";
+    }
+
+    /* ========= footer ======= */
+    .newsLetter {
+        padding: 30px;
+        border-radius: 10px;
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+        transform: translateY(0%);
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        margin-top: 15px;
+    }
+    .name input,
+    .email input {
+        width: 270px;
+    }
+    .logoText h2 {
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+    
+    .logoText p {
+        font-size: 10px;
+        word-spacing: 1px;
+        line-height: 1.1;
+        margin-bottom: 0;
+    }
+
+    .nlLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .nlLogo i {
+        font-size: 30px;
+    }
+
+    #footer {
+        padding: 50px 0 30px 0;
+    }
+
+    .footerLogo img {
+        width: 120px;
+    }
+
+    .footerFlex {
+        padding: 20px 0;
+    }
+
+    .follow h2 {
+        padding-bottom: 10px;
+    }
+
+    .footerLogo {
+        padding-top: 0;
+    }
+
+    /* ====== copyright section ======= */
+    .copyright {
+        padding: 20px 0;
+        font-size: 14px;
+    }
+
+    .copyright p {
+        margin-bottom: 0;
+    }
+}
+
+/* ============ for medium device ==========  */
+@media (min-width: 768px) and (max-width:991.98px) {
+
+    /* ====== common css ===== */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .goToTop {
+        width: 30px;
+        height: 30px;
+        right: 15px;
+        background-size: cover;
+    }
+
+    /* ========== navbar ======== */
+    .menu>ul {
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    .menubar>.logo img {
+        width: 150px;
+    }
+
+    #nav {
+        padding: 15px;
+        background: #f7dde9ee;
+        position: static;
+    }
+
+    #nav.fixNav {
+        padding: 10px;
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .menu ul li a::after {
+        content: "";
+    }
+
+    .login a {
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
+
+    /* ============ banner ============== */
+    #banner {
+        padding-top: 100px;
+    }
+
+    .bannerImg {
+        text-align: center;
+    }
+
+    .bannerImg img {
+        margin-left: 0;
+        margin-bottom: 10px;
+        height: 340px;
+    }
+
+    .bannerText h2 {
+        font-size: 40px;
+    }
+
+    .bannerText h1 {
+        font-size: 60px;
+    }
+
+    .bannerText p {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 30px 0;
+    }
+
+    .bannerLink a {
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
+
+    #banner .bannerLink {
+        padding-bottom: 50px;
+    }
+
+    /* ======== history section ======= */
+    #history {
+        padding: 70px 0;
+    }
+
+    .historyText {
+        padding-top: 0;
+    }
+
+    .heading h2 {
+        font-size: 32px;
+        color: #d50a51;
+        padding: 10px 0 10px 0px;
+    }
+
+    .historyText p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .historyText br {
+        display: none;
+    }
+
+    /* === gift section ========= */
+    #proposal {
+        padding: 60px 0 20px 0;
+        /* overflow: hidden; */
+    }
+
+    .proposalText {
+        padding-left: 0px;
+    }
+
+    #proposal .bannerLink {
+        padding: 15px 0 20px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .proposalImg img {
+        /* position: static; */
+        height: 580px;
+    }
+
+    /* ============ ticket section ========== */
+    #ticket {
+        padding: 60px 0 40px 0;
+    }
+
+    .ticketImg img {
+        height: 210px;
+       left: 0;
+       margin-top: 50px;
+    }
+
+    #ticket .bannerLink {
+        padding: 10px 0 15px 0;
+        gap: 10px;
+    }
+
+    /* =========== offer section ======== */
+    #offer {
+        background: radial-gradient(#ffffff, #fdedf4);
+        padding: 50px 0 20px 0;
+    }
+
+    .cardHeading {
+        align-items: center;
+    }
+
+    .cardArea {
+        padding: 20px 25px;
+
+    }
+
+    .cardDes p {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cardArea:hover {
+        border-right: 2px solid #d50a51;
+    }
+
+    /* ====== shots section ========== */
+    #shots {
+        padding: 50px 0;
+    }
+
+    .shotsFlex {
+        flex-direction: column-reverse;
+    }
+
+    #shots .heading h2 {
+        font-size: 24px;
+    }
+
+    .shotsText .bannerLink {
+        padding-top: 10px;
+        gap: 10px;
+    }
+
+    /* ======= couner section =========== */
+    .countFlex {
+        /* row-gap: 35px; */
+    }
+
+    /* ========== review section ======== */
+    #review {
+        padding: 70px 0 150px 0;
+    }
+
+    .reviewCard {
+        padding: 25px 35px;
+        box-shadow: 0 0 0px #a3a0a0;
+    }
+
+    .reviewCard p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .reviewTitle {
+        width: 200px;
+    }
+
+    .reviewTitle h3 {
+        padding-bottom: 7px;
+        font-size: 20px;
+    }
+
+    .reviewTitle h4 {
+        font-size: 18px;
+    }
+
+    .reviewImg {
+        padding-right: 15px;
+        width: 70px;
+    }
+
+    .reviewImg img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .btnTwo,
+    .btnOne {
+        display: none;
+    }
+
+    /* ========= footer ======= */
+    .newsLetter {
+        padding: 30px 10px;
+        border-radius: 30px;
+        top: -60px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        margin-top: 15px;
+    }
+    .name input,
+    .email input {
+        width: 270px;
+    }
+    .logoText h2 {
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+    
+    .logoText p {
+        font-size: 12px;
+        word-spacing: 1px;
+        line-height: 1.1;
+        margin-bottom: 0;
+    }
+
+    .nlLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .nlLogo i {
+        font-size: 30px;
+    }
+
+    #footer {
+        padding: 50px 0 30px 0;
+    }
+
+    .footerLogo img {
+        width: 150px;
+        padding-top: 50px;
+    }
+
+    .footerFlex {
+        padding: 40px 0;
+    }
+
+    .follow h2 {
+        padding-bottom: 10px;
+    }
+
+    /* ====== copyright section ======= */
+    .copyright p {
+        margin-bottom: 0;
+    }
+}
+/* ============ for large device ==========  */
+@media (min-width: 992px) and (max-width:1199.98px) {
+
+    /* ====== common css ===== */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .goToTop {
+        width: 35px;
+        height: 35px;
+        right: 25px;
+        background-size: cover;
+    }
+
+    /* ========== navbar ======== */
+    .menu>ul {
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    .menubar>.logo img {
+        width: 150px;
+    }
+
+    #nav {
+        padding: 20px;
+        background: #f7dde9ee;
+        position: static;
+    }
+
+    #nav.fixNav {
+        padding: 15px;
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .menu ul li a::after {
+        content: "";
+    }
+
+    .login a {
+        padding: 10px 15px;
+        border-radius: 25px;
+        font-size: 14px;
+    }
+
+    /* ============ banner ============== */
+    #banner {
+        padding-top: 100px;
+    }
+
+    .bannerImg {
+        text-align: center;
+    }
+
+    .bannerImg img {
+        margin-left: -60px;
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    .bannerText h2 {
+        font-size: 50px;
+    }
+
+    .bannerText h1 {
+        font-size: 70px;
+    }
+
+    .bannerText p {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 35px 0;
+    }
+
+    .bannerLink a {
+        padding: 10px 15px;
+        border-radius: 25px;
+        font-size: 14px;
+    }
+
+    #banner .bannerLink {
+        padding-bottom: 70px;
+    }
+
+    /* ======== history section ======= */
+    #history {
+        padding: 70px 0;
+    }
+
+    .historyText {
+        padding-top: 10px;
+    }
+
+    .heading h2 {
+        font-size: 35px;
+        color: #d50a51;
+        padding: 10px 0 10px 0px;
+    }
+
+    .historyText p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .historyText br {
+        display: none;
+    }
+
+    /* === gift section ========= */
+    #proposal {
+        padding: 90px 0;
+        /* overflow: hidden; */
+    }
+
+    .proposalText {
+        padding-left: 0px;
+    }
+
+    #proposal .bannerLink {
+        padding: 15px 0 20px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .proposalImg img {
+        /* position: static; */
+        height: 620px;
+        margin-bottom: -50px;
+    }
+
+    /* ============ ticket section ========== */
+    #ticket {
+        padding: 90px 0;
+    }
+
+    .ticketImg img {
+        height: 300px;
+        left: 0;
+        margin-top: 50px;
+    }
+
+    #ticket .bannerLink {
+        padding: 15px 0 20px 0;
+        gap: 15px;
+    }
+
+    /* =========== offer section ======== */
+    #offer {
+        background: radial-gradient(#ffffff, #fdedf4);
+        padding: 70px 0;
+    }
+
+
+    .cardArea {
+        padding: 25px;
+
+    }
+
+    .cardDes p {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cardArea:hover {
+        border-right: 2px solid #d50a51;
+    }
+
+    /* ====== shots section ========== */
+    #shots {
+        padding: 90px 0;
+    }
+
+
+    #shots .heading h2 {
+        font-size: 24px;
+    }
+
+    .shotsText .bannerLink {
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    /* ======= couner section =========== */
+  
+    /* ========== review section ======== */
+    #review {
+        padding: 70px 0 150px 0;
+    }
+
+    .reviewCard {
+        padding: 25px 35px;
+        box-shadow: 0 0 0px #a3a0a0;
+    }
+
+    .reviewCard p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .reviewTitle {
+        width: 200px;
+    }
+
+    .reviewTitle h3 {
+        padding-bottom: 7px;
+        font-size: 20px;
+    }
+
+    .reviewTitle h4 {
+        font-size: 18px;
+    }
+
+    .reviewImg {
+        padding-right: 15px;
+        width: 70px;
+    }
+
+    .reviewImg img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .btnOne {
+        right: 40%;
+        transform: translateY(-50%);
+        top: 110%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
+    .btnTwo {
+        left: 40%;
+        transform: translateY(-50%);
+        top: 110%;
+    }
+    /* ========= footer ======= */
+    .newsLetter {
+        padding: 50px 30px;
+        border-radius: 25px;
+        top: -60px;
+        align-items: center;
+        column-gap: auto;
+        justify-content: center;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .name input,
+    .email input {
+        width: 260px;
+    }
+    .logoText h2 {
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+    
+    .logoText p {
+        font-size: 12px;
+        word-spacing: 1px;
+        line-height: 1.1;
+        margin-bottom: 0;
+    }
+
+    .nlLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .nlLogo i {
+        font-size: 30px;
+    }
+
+    #footer {
+        padding: 50px 0 30px 0;
+    }
+
+    .footerLogo img {
+        width: 150px;
+        padding-top: 50px;
+    }
+
+    .footerFlex {
+        padding: 40px 0;
+    }
+
+    .follow h2 {
+        padding-bottom: 10px;
+    }
+
+    /* ====== copyright section ======= */
+    .copyright {
+        padding: 25px 0;
+    }
+    .copyright p {
+        margin-bottom: 0;
+    }
+}
+
+
+
