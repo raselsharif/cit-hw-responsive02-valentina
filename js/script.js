@@ -29,7 +29,7 @@ $(function () {
   // ==================== pre loader ===============
   $(window).on("load", function () {
     $(".preLoader").delay(2500).fadeOut(500);
-    // $("html, body").animate({ scrollTop: 0 }, 500);
+    $("html, body").animate({ scrollTop: 0 }, 500);
   })
 
 // ========== count down ==========
