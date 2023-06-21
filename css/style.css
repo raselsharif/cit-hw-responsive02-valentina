@@ -49,7 +49,7 @@ body {
 }
 
 .loader {
-    background: url(../images/banner.png);
+    /* background: url(../images/banner.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,16 +60,15 @@ body {
     left: 100px;
     top: 50%;
     transform: translateY(-50%);
-    animation: preLoader 3s 2s infinite;
+    /* animation: preLoader 3s 2s infinite; */
 }
-
-@keyframes preLoader {
+/* @keyframes preLoader {
 
     50% {
         margin-left: 900px;
     }
 
-}
+} */
 
 .preLoader .bannerText h2 {
     font-size: 100;
