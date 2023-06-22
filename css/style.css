@@ -32,7 +32,7 @@ a {
 
 html,
 body {
-    scroll-behavior: smooth;
+    scroll-behavior: unset !important;
     /* overflow-x: hidden; */
 }
 
