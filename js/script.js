@@ -31,36 +31,48 @@ $(function () {
     $(".preLoader").delay(2500).fadeOut(500);
     $("html, body").animate({ scrollTop: 0 }, 500);
   })
+// ============ after click on menu scroll smooth ==============
+var $root = $('html, body');
 
-// ========== count down ==========
-$("#days")
-.countdown("2024/02/14", function(event) {
-  $(this).text(
-    event.strftime('%D')
-    // event.strftime('%D days %H:%M:%S')
-  );
+$('a[href^="#"]').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: $(href).offset().top
+    }, 1000, function () {
+        window.location.hash = href;
+    });
+
+    return false;
 });
-$("#hours")
-.countdown("2024/02/14", function(event) {
-  $(this).text(
-    event.strftime('%H')
-    // event.strftime('%D days %H:%M:%S')
-  );
-});
-$("#mins")
-.countdown("2024/02/14", function(event) {
-  $(this).text(
-    event.strftime('%M')
-    // event.strftime('%D days %H:%M:%S')
-  );
-});
-$("#sects")
-.countdown("2024/02/14", function(event) {
-  $(this).text(
-    event.strftime('%S')
-    // event.strftime('%D days %H:%M:%S')
-  );
-});
+  // ========== count down ==========
+  $("#days")
+    .countdown("2024/02/14", function (event) {
+      $(this).text(
+        event.strftime('%D')
+        // event.strftime('%D days %H:%M:%S')
+      );
+    });
+  $("#hours")
+    .countdown("2024/02/14", function (event) {
+      $(this).text(
+        event.strftime('%H')
+        // event.strftime('%D days %H:%M:%S')
+      );
+    });
+  $("#mins")
+    .countdown("2024/02/14", function (event) {
+      $(this).text(
+        event.strftime('%M')
+        // event.strftime('%D days %H:%M:%S')
+      );
+    });
+  $("#sects")
+    .countdown("2024/02/14", function (event) {
+      $(this).text(
+        event.strftime('%S')
+        // event.strftime('%D days %H:%M:%S')
+      );
+    });
 
   const swiper = new Swiper('.swiper', {
     speed: 800,
@@ -86,16 +98,16 @@ $("#sects")
         slidesPerView: 1,
         spaceBetween: 20,
       },
-        // when window width is >= 768px
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
     }
 
   });
 });
 
 // ======= aos Animation ========
-  AOS.init();
+AOS.init();
 
