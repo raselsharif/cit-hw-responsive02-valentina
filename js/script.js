@@ -1,3 +1,4 @@
+sal();
 $(function () {
 
   $(window).scroll(function () {
@@ -110,4 +111,7 @@ $('a[href^="#"]').click(function() {
 
 // ======= aos Animation ========
 AOS.init();
+
+// ====== sal Animation ======
+
 

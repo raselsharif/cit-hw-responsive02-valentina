@@ -33,7 +33,7 @@ a {
 html,
 body {
     scroll-behavior: unset !important;
-    /* overflow-x: hidden; */
+    overflow-x: hidden !important;
 }
 
 /* ================== pre loader ================= */
@@ -255,6 +255,7 @@ body {
 
 .bannerImg {
     /* width: 570px; */
+    /* overflow: hidden; */
 }
 
 .bannerImg img {
@@ -324,6 +325,7 @@ body {
 #history {
     background: #ffffff;
     padding: 100px 0;
+    /* overflow: hidden; */
 }
 
 .historyFlex {
@@ -333,6 +335,7 @@ body {
 
 .historyImg {
     /* width: 570px; */
+    /* overflow: hidden; */
 }
 
 .historyText {
@@ -708,6 +711,7 @@ body {
 #review {
     background: #ffffff;
     padding: 140px 0 150px 0;
+    overflow: hidden;
 }
 
 .reviewFlex {
